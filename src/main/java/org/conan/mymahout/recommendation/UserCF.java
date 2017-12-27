@@ -35,7 +35,7 @@ public class UserCF {
             for (RecommendedItem ritem : list) {
                 System.out.printf("(%s,%f)", ritem.getItemID(), ritem.getValue());
             }
-            System.out.println();
+            System.out.println("");
         }
     }
 }
