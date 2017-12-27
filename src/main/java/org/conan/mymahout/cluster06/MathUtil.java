@@ -56,6 +56,9 @@ public class MathUtil {
     }
 
     public static void main(String[] args) throws IOException {
-        readFileToVector("datafile/randomData.csv");
+        List<Vector> vectors = readFileToVector("datafile/randomData.csv");
+        vectors.stream().forEach(
+                randomNum -> System.out.println(randomNum)
+        );
     }
 }
